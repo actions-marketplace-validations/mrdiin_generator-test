@@ -1,4 +1,4 @@
-name: 'Podcast Generator'
+name: 'XML Podcast Generator'
 author: 'Botshelo Brandon Tidimalo'
 description: 'Generate a podcast episode from a YAML file'
 runs:
