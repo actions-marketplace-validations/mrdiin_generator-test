@@ -11,8 +11,8 @@ input:
   email:
     description: 'The email address of the user creating the deployment'
     required: false
-    default: '${{ github.actor }}@localhost'
+    default: '${{ inputs.actor }}@localhost'
   name:
     description: 'The user creating the deployment. Default: `github.actor`'
     required: false
-    default: '${{ github.actor }}'
+    default: '${{ inputs.actor }}'
